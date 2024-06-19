@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 50px; 
+    align-items: end;
+    height: 100vh; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+body{
+    height: 5000px;
+}
+
+img {
+    max-width: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+#img1 {
+    right: 500px;  /* Ballon à gauche */
+    
+}
+
+#img2 {
+    right: 10px;  /* Voiture à droite */
+}
+
+
