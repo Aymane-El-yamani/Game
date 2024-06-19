@@ -52,12 +52,12 @@ img {
 }
 
 #ball {
-    right: 500px;  /* Ballon à gauche */
+    right: 500px;  
     
 }
 
 #car {
-    right: 0;  /* Voiture à droite */
+    right: 0; 
 }
 
 
@@ -65,4 +65,22 @@ img {
     visibility: hidden;
 }
 
+#btn,#Rest{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+.btns{
+    gap: 20px;
+}
+
+#btn:hover{
+    background-color: rgb(7, 102, 102);
+    color: white;
+}
+
+#Rest:hover{
+    background-color: rgb(7, 102, 102);
+    color: white;
+}
