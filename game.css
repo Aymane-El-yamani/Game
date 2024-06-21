@@ -65,7 +65,7 @@ img {
     visibility: hidden;
 }
 
-#btn,#Rest{
+#btn,#Reset{
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -80,7 +80,7 @@ img {
     color: white;
 }
 
-#Rest:hover{
+#Reset:hover{
     background-color: rgb(7, 102, 102);
     color: white;
 }

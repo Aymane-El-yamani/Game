@@ -4,7 +4,7 @@ const ball = document.getElementById('ball');
 
 const btn = document.getElementById("btn");
 
-const Rest = document.getElementById("Rest")
+const Reset = document.getElementById("Reset")
 
 const audio = document.getElementById("audio");
 
@@ -49,7 +49,7 @@ btn.onclick = function(){
 }
 
 
-Rest.onclick = function () {
+Reset.onclick = function () {
     clearInterval(id)
     valRange = 0;
     car.style.right  = 0;
